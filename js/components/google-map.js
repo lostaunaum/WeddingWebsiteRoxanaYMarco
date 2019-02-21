@@ -2,7 +2,7 @@
 
 jQuery(document).ready(function($){
   //set your google maps parameters
-  var latitude = 41.850,
+  var latitude = -12.0961005,
       longitude = -73.961,
       map_zoom = 6;
 
@@ -202,14 +202,7 @@ jQuery(document).ready(function($){
   //inizialize the map
   var map = new google.maps.Map(document.getElementById('js__google-container'), map_options);
 
-  var contentString = '<div id="content">'+
-    '<div id="siteNotice">'+
-    '</div>'+
-    '<h2 id="firstHeading" class="firstHeading">Brooklyn</h2>'+
-    '<div id="bodyContent">'+
-    '<p>277 Bedford Avenue, <br> Brooklyn, NY 11211, <br> New York, USA</p>'+
-    '</div>'+
-    '</div>';
+  var contentString = '<h1>TEST</h1>';
 
   var infowindow = new google.maps.InfoWindow({
     content: contentString,
