@@ -7302,7 +7302,11 @@
 
 /* Background Colors */
 .g-bg-color--primary {
-  background-color: #13b1cd !important;
+  background: url('../../img/weddingPhotos/ok_E8A2391.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .g-bg-color--blueviolet {
