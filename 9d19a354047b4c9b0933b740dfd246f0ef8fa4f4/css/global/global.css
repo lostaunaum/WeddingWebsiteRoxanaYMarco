@@ -1,4 +1,50 @@
 /*----------------------------------
+  Custom Marco
+------------------------------------*/
+input{
+  border-radius: 50%;
+}
+
+.grow input{
+  transition: 1s ease;
+}
+
+.grow input:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  box-shadow: 0 0 0 10px #4ef442;
+  transform: scale(1.2);
+  transition: 1s ease;
+}
+
+
+.s-registry__img-effect {
+  position: relative;
+  display: block;
+}
+
+.s-registry__img-effect:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(142, 199, 217, 0.8);
+  content: " ";
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  transition-duration: 400ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+.s-portfolio__item:hover .s-registry__img-effect:after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/*----------------------------------
   Font Size
 ------------------------------------*/
 .g-font-size-10--xs {
