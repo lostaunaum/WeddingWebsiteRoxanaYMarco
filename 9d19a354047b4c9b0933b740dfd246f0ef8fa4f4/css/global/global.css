@@ -79,6 +79,7 @@
 
 .g-font-size-36--xs {
   font-size: 2.25rem !important;
+  font-family: 'Great Vibes', cursive;
 }
 
 .g-font-size-38--xs {
@@ -271,6 +272,7 @@
   }
   .g-font-size-50--sm {
     font-size: 3.125rem !important;
+    font-family: 'Great Vibes', cursive;
   }
   .g-font-size-55--sm {
     font-size: 3.4375rem !important;
@@ -421,6 +423,7 @@
   }
   .g-font-size-60--md {
     font-size: 3.75rem !important;
+    font-family: 'Great Vibes', cursive;
   }
   .g-font-size-65--md {
     font-size: 4.0625rem !important;
