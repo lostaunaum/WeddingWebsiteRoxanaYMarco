@@ -189,7 +189,7 @@ input{
 /* Phone */
 @media (max-width: 527px) {
   .registry-Header-Large {
-    font-size: 1.930rem !important;
+    font-size: 1.530rem !important;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
     text-decoration: underline;
@@ -197,21 +197,21 @@ input{
   }
 
   .registry-Note-Large {
-    font-size: 1.425rem !important;
+    font-size: 1.225rem !important;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
     color: white;
   }
 
   .registry-priceTag-Large {
-    font-size: 2.625rem !important;
+    font-size: 2.425rem !important;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
     color: white;
   }
 
   .registry-Header-Small {
-    font-size: 1.325rem !important;
+    font-size: 1.125rem !important;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
     text-decoration: underline;
@@ -219,14 +219,14 @@ input{
   }
 
   .registry-Note-Small {
-    font-size: 0.625rem !important;
+    font-size: 0.725rem !important;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
     color: white;
   }
 
   .registry-priceTag-Small {
-    font-size: 1.125rem !important;
+    font-size: 1.225rem !important;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
     color: white;
