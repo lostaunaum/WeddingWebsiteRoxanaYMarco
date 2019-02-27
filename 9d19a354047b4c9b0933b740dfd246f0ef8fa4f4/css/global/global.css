@@ -1,11 +1,8 @@
 /*----------------------------------
   Custom Marco
 ------------------------------------*/
-input{
-  border-radius: 50%;
-}
-
 .grow input{
+  border-radius: 50%;
   transition: 1s ease;
 }
 
