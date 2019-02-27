@@ -211,7 +211,7 @@ input{
   }
 
   .registry-Header-Small {
-    font-size: 1.525rem !important;
+    font-size: 1.325rem !important;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
     text-decoration: underline;
@@ -219,14 +219,14 @@ input{
   }
 
   .registry-Note-Small {
-    font-size: 0.825rem !important;
+    font-size: 0.625rem !important;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
     color: white;
   }
 
   .registry-priceTag-Small {
-    font-size: 1.325rem !important;
+    font-size: 1.125rem !important;
     font-weight: 900;
     font-family: 'Indie Flower', cursive;
     color: white;
