@@ -12,7 +12,8 @@ input{
 .grow input:hover{
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  box-shadow: 0 0 0 10PX #C5D1FF;
+  /* box-shadow: 0 0 0 10PX #C5D1FF; */
+  box-shadow: 0 0 0 10PX #85bb65;
   transform: scale(1.2);
   transition: 1s ease;
 }
@@ -44,16 +45,192 @@ input{
   transform: translate3d(0, 0, 0);
 }
 
-.g-font-size-18--xs--custom {
-  font-size: 2.125rem !important;
-  font-weight: 900;
-  font-family: 'Indie Flower', cursive;
+/* Extra large screen / wide desktop */
+@media (min-width: 1800px) {
+  .registry-Header-Large {
+    font-size: 1.930rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    color: white;
+  }
+
+  .registry-Note-Large {
+    font-size: 1.625rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+
+  .registry-priceTag-Large {
+    font-size: 2.825rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+
+  .registry-Header-Small {
+    font-size: 1.725rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    color: white;
+  }
+
+  .registry-Note-Small {
+    font-size: 1.025rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+
+  .registry-priceTag-Small {
+    font-size: 1.525rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
 }
 
-.g-font-size-26--xs--custom {
-  font-size: 1.925rem !important;
-  font-weight: 900;
-  font-family: 'Indie Flower', cursive;
+/* Medium screen / tablet */
+@media (max-width: 1800px) and (min-width: 991px) {
+  .registry-Header-Large {
+    font-size: 1.930rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    color: white;
+  }
+
+  .registry-Note-Large {
+    font-size: 1.425rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+
+  .registry-priceTag-Large {
+    font-size: 2.625rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+
+  .registry-Header-Small {
+    font-size: 1.525rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    color: white;
+  }
+
+  .registry-Note-Small {
+    font-size: 0.825rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+
+  .registry-priceTag-Small {
+    font-size: 1.325rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+}
+
+/* Small screen / phone */
+@media (max-width: 991px) and (min-width: 527px) {
+  .registry-Header-Large {
+    font-size: 0.925rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    color: white;
+  }
+  
+  .registry-Note-Large {
+    font-size: 0.525rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+  
+  .registry-priceTag-Large {
+    font-size: 1.225rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+  
+  .registry-Header-Small {
+    font-size: 0.525rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    color: white;
+  }
+  
+  .registry-Note-Small {
+    font-size: 0.125rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+  
+  .registry-priceTag-Small {
+    font-size: 0.625rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+}
+
+/* Phone */
+@media (max-width: 527px) {
+  .registry-Header-Large {
+    font-size: 1.930rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    color: white;
+  }
+
+  .registry-Note-Large {
+    font-size: 1.425rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+
+  .registry-priceTag-Large {
+    font-size: 2.625rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+
+  .registry-Header-Small {
+    font-size: 1.525rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    color: white;
+  }
+
+  .registry-Note-Small {
+    font-size: 0.825rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
+
+  .registry-priceTag-Small {
+    font-size: 1.325rem !important;
+    font-weight: 900;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+  }
 }
 
 /*----------------------------------
