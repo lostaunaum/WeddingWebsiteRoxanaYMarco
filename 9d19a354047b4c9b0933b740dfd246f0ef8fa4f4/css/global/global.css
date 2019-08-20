@@ -7617,3 +7617,18 @@
   background-image: linear-gradient(145deg, rgba(19, 177, 205, 0.6) 0%, #13b1cd 100%);
   background-repeat: repeat-x;
 }
+
+
+/*----------------------------------
+  REGISTRY
+------------------------------------*/
+#zolaButton { 
+  opacity: .5;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  -o-transition: opacity .5s ease-out;
+} 
+#zolaButton:hover { 
+  opacity: 1;
+} 
